@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwole Owoeye Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        
+        /* Navigation */
+        nav {
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        nav a:hover {
+            color: #0066cc;
+        }
+        
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+        
+        /* About Section */
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            object-fit: cover;
+        }
+        
+        /* Skills Section */
+        #skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        #skills li {
+            background: #0066cc;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+        
+        /* Projects Section */
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .project h3 {
+            margin-bottom: 10px;
+        }
+        
+        /* Contact Section */
+        #contact form {
+            display: grid;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        #contact input, 
+        #contact textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+        }
+        
+        #contact button {
+            background: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Oluwole Owoeye</h1>
+        <p>Web Developer | PLP Student</p>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="image/profile.jpg" alt="Oluwole Owoeye's Profile Picture">
+        <p>Hello! I'm a beginner web developer passionate about creating simple, effective websites. I enjoy learning new technologies and solving problems through code.</p>
+        <p>I'm interested in using Artificial Intelligence to solve problems .</p>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Git</li>
+        </ul>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Adekunle Ajasin University, Akungba-Akoko, Ondo, Nigeria</h3>
+        <p>Bachelor of Science | 2013</p>
+        <p>Phyics and Electronics</p>
+        
+        <h3 style="margin-top: 20px;">Online Courses</h3>
+        <p>Introduction to Web Devleopment - HTML and CSS | PLP Academy | 2025</p>
+        <p>Introduction to Python - Data structures, Control Flows and Functions | PLP Academy | 2025</p>
+        <p>Introduction to Databases - Programming with SQL | PLP Academy | 2025</p>
+        <a href="downloads/OLUWOLE OWOEYE - resume.pdf" style="display: inline-block; margin-top: 15px; color: #0066cc;">Download My CV</a>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Project</h2>
+        <div class="project">
+            <h3>Basic calulator program</h3>
+            <p>A simple program to perform basic mathematical operation on two numbers</p>
+            <a href="https://github.com/oluwoleowoeye/basic-calculator-program">View Project</a>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      
+      <div class="contact-info">
+        <!-- my details -->
+        <p><i class="fas fa-envelope"></i> oluwoleowoeye1@gmail.com</p>
+        <p><i class="fas fa-phone"></i>2347038604166</p>
+        <p><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</p>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Oluwole Owoeye</p>
+    </footer>
+</body>
+</html>
